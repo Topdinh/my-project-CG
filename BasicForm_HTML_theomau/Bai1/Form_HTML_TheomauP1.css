@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #ff4d4d;
+    width: 99%;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+.bodyContent{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.bodyContent .dinhhinh{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.bodyContent .dinhhinh .textContent{
+    float: left;
+    width: 20%;
+    height: auto;
+    text-align: right;
+    color: blue;
+    margin-right: 5%;
+}
+.bodyContent .dinhhinh .contract{
+    width: 80%;
+    height: auto;
+}
+.bodyContent .dinhhinh .contract .input1{
+    padding: 2px;
+    width: 40%;
+    height: auto;
+}
+.checkboxContract{
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+}
+.checkboxContract div{
+    width: 125px;
+    float: left;
+    margin-right: 30px;
+}
+.bt1{
+    float: left;
+    width: 20%;
+    height: 100px;
+    margin-right: 5%;
+}
+.bt2 input{
+    padding: 2px;
+    font-size: 17px;
+}
