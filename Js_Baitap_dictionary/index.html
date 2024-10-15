@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+</head>
+<body>
+    <h1>Thêm định nghĩa mới vào từ điển</h1>
+    <form action="" onsubmit="return false;">               <!--Lệnh onsubmit="return false;" là hàm loại bỏ các mặc định của form-->
+        <div>
+            <label for="New_name01">Tên định nghĩa: </label>
+            <input type="text" name="" id="New_name01"><br><br>
+        </div>
+        <div>
+            <label for="New_name02">Ý nghĩa:</label>
+            <input type="text" name="" id="New_name02"><br><br>
+        </div>
+        <div>
+            <input type="submit" value="Thêm mới" onclick="Add_new();">
+            <button type="button" onclick="Display_Information();">Xuất danh sách</button>
+        </div>
+    </form>
+
+    <br>
+    
+    <form action="" onsubmit="return false;">         <!--Hộp search-->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Nhập từ khóa...">
+            <button onclick="search()">Tìm kiếm</button>
+        </div>
+    </form>
+
+    <div id="result"></div>             <!--Hộp trả về kết quả-->
+</body>
+</html>
